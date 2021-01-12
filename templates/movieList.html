@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block content %}
+	<div class="breadcrumbs">
+		<a href="{{ url_for('home')}}">Home</a>
+		<span>{{ title }}</span>
+	</div>
+	<div class="movie-list">
+		<div class="movie">
+			<figure class="movie-poster"><img src="/static/dummy/thumb-3.jpg" alt="#"></figure>
+			<div class="movie-title"><a href="single.html">Maleficient</a></div>
+			<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+		</div>
+	</div> <!-- .movie-list -->
+{% endblock content %}
