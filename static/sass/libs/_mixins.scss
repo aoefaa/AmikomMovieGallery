@@ -36,7 +36,7 @@
 
 @mixin at2x($path, $ext: "jpg", $w: auto, $h: auto) {
   $at1x_path: "#{$path}.#{$ext}";
-  $at2x_path: "#{$path}@2x.#{$ext}";
+  $at2x_path: "#{$path}.#{$ext}";
 
   background-image: url("#{$at1x_path}");
 

@@ -490,32 +490,6 @@ ul.arrow {
       border-color: #ffaa3c; }
   .contact-form textarea {
     min-height: 100px; }
-  .contact-form .name {
-    background-image: url("images/icon-contact-user.png"); }
-    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
-      .contact-form .name {
-        background-image: url("images/icon-contact-user@2x.png");
-        background-size: 12px 14px; } }
-  .contact-form .email {
-    background-image: url("images/icon-contact-envelope.png"); }
-    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
-      .contact-form .email {
-        background-image: url("images/icon-contact-envelope@2x.png");
-        background-size: 14px 11px; } }
-  .contact-form .website {
-    background-image: url("images/icon-contact-globe.png"); }
-    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
-      .contact-form .website {
-        background-image: url("images/icon-contact-globe@2x.png");
-        background-size: 14px 14px; } }
-  .contact-form .message {
-    background-image: url("images/icon-contact-pencil.png"); }
-    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
-      .contact-form .message {
-        background-image: url("images/icon-contact-pencil@2x.png");
-        background-size: 14px 14px; } }
-  .contact-form input[type="submit"] {
-    float: right; }
 
 .container {
   margin-right: auto;

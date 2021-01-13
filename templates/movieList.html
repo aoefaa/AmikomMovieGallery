@@ -7,8 +7,8 @@
 	<div class="movie-list">
 		{% for i in range(0, movieIndex) %}
 		<div class="movie">
-			<figure class="movie-poster"><img src="{{url_for('getImage', filename=moviePoster[i])}}" alt="#"></figure>
-			<div class="movie-title"><a href="single.html">{{ movieTitle[i] }}</a></div>
+			<figure class="movie-poster"><img src="{{url_for('static', filename=moviePoster[i])}}" alt="#"></figure>
+			<div class="movie-title"><a href="/movieList?view={{ movieId[i] }}">{{ movieTitle[i] }}</a></div>
 			<p>{{ movieDesc[i] }}</p>
 		</div>
 		{% endfor %}

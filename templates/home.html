@@ -3,10 +3,10 @@
     <div class="row">
         <div class="slider">
             <ul class="slides">
-                {% for imgMovies in imgMovies %}
+                {% for i in range(0, movieIndex) %}
                 <!-- <li><a href="#"><img src="{{url_for('static', filename='dummy/slide-1.jpg')}}" alt="Slide 1"></a></li>
                 <li><a href="#"><img src="{{url_for('static', filename='dummy/slide-2.jpg')}}" alt="Slide 2"></a></li> -->
-                    <li><a href="#"><img src="{{url_for('getImage', filename = imgMovies)}}"></a></li>
+                    <li><a href="#"><img src="{{url_for('static', filename = imgMovies[i])}}" alt="Slide {{ i + 1 }}"></a></li>
                 {% endfor %}
             </ul>
         </div>
